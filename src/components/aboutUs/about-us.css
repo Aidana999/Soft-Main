@@ -1,0 +1,42 @@
+.wrapper-about-us .about-us-banner {
+  width: 100%;
+  background-image: url("./AboutUs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 800px;
+}
+.wrapper-about-us p {
+  /*font-family: Montserrat;*/
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 100px 200px 30px 200px;
+  line-height: 1.5em;
+  color: #000000;
+}
+.wrapper-about-us .banner-text {
+  padding-top: 48px;
+  padding-left: 200px;
+}
+.wrapper-about-us .text {
+  display: flex;
+  width: 83%;
+  height: 140px;
+  padding-top: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ed2840;
+  background-color: #ffffff;
+  text-align: center;
+  align-content: center;
+  padding-left: 20px;
+  margin-top: -50px;
+}
+.wrapper-about-us .about-us-banner {
+}

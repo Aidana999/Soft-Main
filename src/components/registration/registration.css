@@ -1,0 +1,129 @@
+.wrapper-registration {
+    width: 100%;
+    background-image: url("./../banner/Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-registration .login {
+    padding: 40px;
+    margin: 15px;
+    width: 358px;
+    height: 206px;
+    background: white;
+    border-radius: 6px;
+}
+
+.wrapper-registration .text h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #ED2840;
+}
+
+.wrapper-registration .text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.wrapper-registration .save-buttons {
+    position: absolute;
+
+}
+
+.wrapper-registration button {
+    color: #000000;
+    border: 1px solid #ED2840;
+    background-color: #FFFFFF;
+    padding: 7px 11px;
+    font-weight: 600;
+    width: 120px;
+    margin-top: 25px;
+}
+
+.wrapper-registration .mentor {
+
+}
+
+.wrapper-registration .judge {
+
+    margin-left: 30px;
+}
+
+.wrapper-registration button:hover {
+    color: #f4f4f4;
+    background-color: #ED2840;
+}
+
+.wrapper-registration-form {
+    max-width: 100%;
+    background-image: url("./../banner/Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-registration-form .registration-form {
+    box-sizing: border-box;
+    padding: 40px;
+    width: 908px;
+    left: 200px;
+    top: 150px;
+    background: white;
+    border-radius: 6px;
+}
+
+.wrapper-registration-form .registration-form-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.wrapper-registration-form .registration-form-header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ED2840;
+    padding-bottom: 15px;
+}
+
+.wrapper-registration-form .registration-form-header a {
+    font-size: 30px;
+    margin-top: 7px;
+
+}
+
+.wrapper-registration-form .one-input {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.wrapper-registration-form  button{
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-weight: 600;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #ED2840;
+}

@@ -1,0 +1,124 @@
+.wrapper-federation .federation-name {
+  width: 100%;
+  background-image: url("./../aboutUs/AboutUs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: contain;
+  height: 800px;
+}
+
+.wrapper-federation .federation-name-text {
+  padding-top: 48px;
+  padding-left: 200px;
+}
+
+.wrapper-federation .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ed2840;
+  background-color: #ffffff;
+  width: 84%;
+  height: 120px;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: -50px;
+}
+
+.wrapper-federation .sport-picture {
+}
+
+.wrapper-federation .about-sport h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ed2840;
+  padding: 90px 200px 30px 200px;
+  text-align: justify;
+}
+
+.wrapper-federation .about-sport p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #000000;
+  padding: 10px 200px;
+  text-align: justify;
+}
+
+.wrapper-federation .sport-federation h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ed2840;
+  padding: 90px 200px 30px 200px;
+}
+
+.wrapper-federation .sport-federation p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-transform: none;
+  text-decoration: none;
+  padding: 20px 200px;
+  font-size: 1em;
+  text-align: justify;
+}
+
+.wrapper-federation .program img {
+  padding: 50px 200px;
+  /*height: 300px;*/
+  width: 80%;
+}
+
+.wrapper-federation .wrapper-news {
+  background-color: #ffffff;
+}
+
+.slideshow {
+  position: relative;
+}
+
+.slideshow--nav {
+  color: #ffffff;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  top: 50%;
+  margin-top: -26px;
+  width: 50px;
+  position: absolute;
+  transition: all linear 0.3s;
+}
+
+.slideshow--nav:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideshow--nav .slideshow--nav--prev {
+  left: 0;
+}
+
+.slideshow--nav .slideshow--nav--next {
+  right: 0;
+}
+
+.slide {
+  position: relative;
+}

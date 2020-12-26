@@ -1,0 +1,16 @@
+.wrapper-second-header {
+    width: 100%;
+    background-color: #020712;
+    padding: 15px 200px 15px 350px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.wrapper-second-header a {
+    font-family: Montserrat;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}

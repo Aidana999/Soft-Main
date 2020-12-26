@@ -1,0 +1,49 @@
+.rating-table .rating-table__block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rating-table .rating-table__search label {
+  margin-right: 47px;
+}
+
+.rating-table .rating-table__search input {
+  margin-top: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 320px;
+  height: 50px;
+  border-radius: 1px;
+}
+
+.rating-table .rating-table__search .search-button {
+  width: 230px;
+  height: 48px;
+  background: #ed2840;
+  color: white;
+  border: none;
+  margin-top: 34px;
+}
+
+.rating-table .rating__table-list {
+  max-width: 100%;
+  margin-bottom: 180px;
+}
+.rating-table .rating__table-list .rating__table-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ed2840;
+}
+
+.rating-table .rating__table-list .rating__table-body {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 58px;
+  padding-left: 15px;
+}
+
+.rating-table .rating__table-list .rating__table-body:hover {
+  background: rgba(237, 40, 64, 0.1);
+  cursor: pointer;
+}

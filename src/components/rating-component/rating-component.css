@@ -1,0 +1,61 @@
+.rating-component {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.rating-component h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ed2840;
+  padding-top: 90px;
+}
+.about-rating {
+  padding: 100px 0;
+}
+.about-rating h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ed2840;
+  padding-top: 30px;
+}
+.about-rating p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #000000;
+  padding-top: 50px;
+}
+.rating-component .main-select-sport {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.rating-component .main-select-sport select {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 1px;
+  width: 320px;
+  height: 50px;
+}
+
+.rating-component .main-select-sport .select-sport {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.rating-component .main-select-sport .select-sport p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}

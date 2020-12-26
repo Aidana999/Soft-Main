@@ -1,0 +1,76 @@
+footer {
+  background-color: #020712;
+}
+footer .wrapper {
+  display: flex;
+  margin: 0 auto;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+footer .logo {
+  margin-top: 32px;
+  /*margin-right: 20px;*/
+  /*margin-left: 20px;*/
+}
+
+footer div a {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+}
+
+footer div h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: uppercase;
+
+  border-bottom: #ed2840 2px solid;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+footer div p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: left;
+  line-height: 30px;
+}
+
+footer .social-media a {
+  color: #ed2840;
+  align-items: center;
+  margin: 5px 10px;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  justify-content: center;
+  justify-items: center;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+}

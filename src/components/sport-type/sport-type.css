@@ -1,0 +1,65 @@
+.wrapper-sport {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.wrapper-sport h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+  color: #020712;
+  margin-bottom: 20px;
+}
+.wrapper-sport .sport-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-sport .sport-type h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: 60px;
+  text-align: left;
+  color: #ed2840;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.wrapper-sport .sport-type div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  grid-gap: 15px;
+}
+
+.wrapper-sport .sport-type .sport-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.wrapper-sport .sport-type .sport-name h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+  color: #020712;
+
+}
+.wrapper-sport .sport-name img:hover {
+  border-radius: 10%;
+  /*box-shadow: 3px 3px 3 #ED2840;  */
+  /*transform: scale(1,05);*/
+}
+.wrapper-sport .sport-type .sport-name p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #020712;
+}

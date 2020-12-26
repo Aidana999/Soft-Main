@@ -1,0 +1,746 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.competition {
+  width: 100%;
+}
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+  min-height: 100%;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+
+  color: #ed2840;
+}
+.competition__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+
+  color: #ed2840;
+
+  margin-top: 70px;
+}
+
+.select__block {
+  max-width: 100%;
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 67px;
+  flex-wrap: wrap;
+}
+
+/* @media (max-width:960px){
+  .select__block{
+
+  }
+} */
+
+.sport-select {
+  margin-right: 54px;
+}
+.sport__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+
+  margin-bottom: 23px;
+
+  color: #000000;
+}
+
+.select {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 1px;
+
+  width: 100%;
+  height: 50px;
+  padding: 14px 16px;
+}
+
+/* card */
+.card__body {
+  margin-top: 67px;
+  padding-bottom: 180px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(396px, 3fr));
+  grid-gap: 1rem;
+  margin-top: 30px;
+}
+
+hr {
+  columns: rgba(0, 0, 0, 0.1);
+}
+
+.card__item {
+  background: #ffffff;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card__item img {
+  height: 235px;
+  flex-grow: 1;
+  /* object-fit: cover; */
+  max-width: 100%;
+}
+.card__wrapper {
+  padding: 17px;
+  height: 100%;
+}
+.card__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  height: 60px;
+  color: #000000;
+}
+.card__location {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+
+  margin-top: 23px;
+}
+.card__item .card__date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 14px;
+}
+
+.end-date {
+  padding-left: 40px;
+  position: relative;
+}
+
+.end-date::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  background-color: #ed2840;
+  border-radius: 50%;
+}
+
+.card__status {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ed2840;
+
+  margin-top: 18px;
+  margin-bottom: 16px;
+}
+
+/* comand companent */
+.comands {
+  padding-bottom: 180px;
+}
+.comand__title {
+  padding-left: 10px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.date-status {
+  text-align: left;
+}
+.date-status .title-date {
+  padding-left: 40px;
+  display: inline-block;
+}
+
+.comand__date {
+  padding-left: 10px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+table {
+  margin-top: 50px;
+  width: 100%;
+  text-align: left;
+
+  border-collapse: collapse;
+}
+.comands tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 58px;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.rating-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ed2840;
+}
+.comands-rating {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.comands-total {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  border: 2px solid #ed2840;
+  color: #000000;
+}
+/* comand end */
+
+/* nav */
+.nav__btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__btns a {
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  border: 1px solid #ed2840;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  padding-top: 15px;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  margin-right: 13px;
+  margin-bottom: 5px;
+}
+.nav__btns a:hover {
+  background-color: #ed2840;
+  color: #fff;
+}
+/* nav end*/
+
+/* competitionParticipants */
+
+.part-list {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 42px;
+}
+.part-list__item {
+  color: #fff;
+  width: 180px;
+  height: 126px;
+  display: flex;
+  position: relative;
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 20.83%,
+        rgba(0, 0, 0, 0.761194) 57.29%,
+        #000000 96.87%
+      )
+      0 0 no-repeat,
+    url("./juniors.jpg") 0 0 no-repeat;
+  padding: 16px;
+  margin-right: 30px;
+}
+.part-list__item:nth-child(2) {
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 20.83%,
+        rgba(0, 0, 0, 0.761194) 57.29%,
+        #000000 96.87%
+      )
+      0 0 no-repeat,
+    url("./img/jun2.png") 0 0 no-repeat;
+}
+.part-list__item:nth-child(3) {
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 20.83%,
+        rgba(0, 0, 0, 0.761194) 57.29%,
+        #000000 96.87%
+      )
+      0 0 no-repeat,
+    url("./img/kadet3.png") 0 0 no-repeat;
+}
+.part-list__item:nth-child(4) {
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 20.83%,
+        rgba(0, 0, 0, 0.761194) 57.29%,
+        #000000 96.87%
+      )
+      0 0 no-repeat,
+    url("./img/child10114.png") 0 0 no-repeat;
+}
+.part-list__item:nth-child(5) {
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 20.83%,
+        rgba(0, 0, 0, 0.761194) 57.29%,
+        #000000 96.87%
+      )
+      0 0 no-repeat,
+    url("./img/child5.png") 0 0 no-repeat;
+}
+.part-list__item:nth-child(6) {
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 20.83%,
+        rgba(0, 0, 0, 0.761194) 57.29%,
+        #000000 96.87%
+      )
+      0 0 no-repeat,
+    url("./img/child6.png") 0 0 no-repeat;
+}
+
+.part-inner-text {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+.weights-male {
+  display: flex;
+  margin-bottom: 25px;
+}
+.weights-female {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.part-text__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  position: relative;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 6px;
+}
+/* .part-text__title::after {
+  content: "";
+  width: 100%;
+
+  color: ;
+} */
+
+.categ__title {
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+
+  margin-bottom: 21px;
+}
+
+.part-text__ages {
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.part-list__item:hover {
+  color: #ed2840;
+  cursor: pointer;
+}
+.part-list__item:hover .part-text__title {
+  border-bottom: 2px solid #ed2840;
+}
+.part-categ {
+}
+
+.categ__block {
+  display: flex;
+  margin-bottom: 50px;
+}
+.categ__item {
+  margin-right: 14px;
+}
+
+.categ__item {
+  text-align: center;
+  width: 100px;
+  height: 86px;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}
+
+.categ__item:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.categ__length {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.categ__weight {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* competition-participants ends */
+
+/* grid cell */
+
+.grid__subtitle {
+  margin-top: 50px;
+}
+.grid__body {
+  margin-top: 55px;
+}
+.grid__block {
+  width: 286px;
+  margin-bottom: 63px;
+}
+.grid__cell {
+  position: relative;
+}
+.grid__cell::before {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  right: -80px;
+  top: 50%;
+}
+.grid__line {
+  position: relative;
+}
+.grid__line::after {
+  content: "";
+  width: 2px;
+  height: 107px;
+  background-color: black;
+  position: absolute;
+  right: -80px;
+  top: 25%;
+}
+.grid__cell {
+  margin-bottom: 9px;
+  position: relative;
+  width: 286px;
+  height: 98px;
+  background: url("img/cell.png") no-repeat 0 0;
+}
+.grid__cell p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.cell__text {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.cell__text hr {
+  width: 87%;
+  margin-bottom: 15px;
+  margin-left: -40px;
+}
+.cell__sportsman {
+  padding-bottom: 15px;
+}
+.grid__body {
+  display: flex;
+  align-items: center;
+}
+.grid__block-2 {
+  margin-left: 107px;
+}
+
+.grid__block-2 .grid__block:nth-child(1) {
+  margin-top: 138px;
+  position: relative;
+}
+.grid__block-2 .grid__block:nth-child(2) {
+  margin-top: 171px;
+}
+.grid__block-2 .grid__block_1::before {
+  content: "";
+  width: 2px;
+  height: 55px;
+  background-color: black;
+  position: absolute;
+  left: -5px;
+  top: -70px;
+}
+.grid__block-2 .grid__block_1::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: -85px;
+  top: -70px;
+}
+
+.grid__block-2 .grid__cell:nth-child(2) .grid__block_2::before {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: -85px;
+  bottom: -20px;
+}
+.grid__block-2 .grid__block_2::after {
+  content: "";
+  width: 2px;
+  height: 15px;
+  background-color: black;
+  position: absolute;
+  left: -5px;
+  bottom: -20px;
+}
+.grid__block-2 .grid__block_3::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: -29px;
+  bottom: 80%;
+}
+
+.grid__block-3 {
+  margin-top: 150px;
+  margin-left: 107px;
+}
+.grid__block-3 .grid__block_1::before {
+  content: "";
+  width: 2px;
+  height: 95px;
+  background-color: black;
+  position: absolute;
+  left: -5px;
+  top: -110px;
+}
+.grid__block-3 .grid__block_1::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: -85px;
+  top: -110px;
+}
+.grid__block-3 .grid__cell:nth-child(2) .grid__block_2::before {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: -85px;
+  bottom: -100px;
+}
+.grid__block-3 .grid__block_2::after {
+  content: "";
+  width: 2px;
+  height: 95px;
+  background-color: black;
+  position: absolute;
+  left: -5px;
+  bottom: -100px;
+}
+
+.grid__block-3 .grid__cell::before {
+  display: none;
+}
+.grid__block-3 .grid__line::after {
+  display: none;
+}
+
+/* competition results */
+.results__title {
+  margin-top: 48px;
+}
+
+.winners__block {
+  margin-top: 65px;
+  display: flex;
+}
+.winner__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 124px;
+}
+.winner__img {
+  border-radius: 50%;
+  border: 1px solid #000000;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.winner__place {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.winner__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align: center;
+}
+.results__all-title {
+  margin-top: 65px;
+}
+.winners__table {
+}
+
+.winners__table th {
+  color: #ed2840;
+}
+.winners__table tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 58px;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 48px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+.subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.preloader {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+}

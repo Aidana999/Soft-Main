@@ -1,0 +1,105 @@
+header {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .header__body {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*position: absolute;*/
+  background: none;
+  position: relative;
+}
+.fa-bars {
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: 50px;
+}
+
+header .logo {
+  display: flex;
+
+  min-width: 80px;
+
+  align-content: center;
+}
+header .logo img {
+  margin: 10px 10px;
+}
+
+header .navBar {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+
+header .localisation {
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+header .localisation a {
+  color: #ffffff;
+  margin-right: 36px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+header .localisation select {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  margin-bottom: 5px;
+  border: none;
+}
+
+header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+
+header .navigation a {
+  margin-right: 55px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+header .navigation .poisk {
+  margin-bottom: 20px;
+}
+
+  @media (max-width: 850px) {
+  header .navBar {
+    display: flex;
+  }
+
+  .svg-inline--fa {
+    display: block;
+  }
+  header .navigation {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    color: black;
+    margin-bottom: 100px;
+  }
+  header .navigation a {
+    color: black;
+    margin-bottom: 10px;
+  }
+}
+.showBurger {
+  display: flex;
+}

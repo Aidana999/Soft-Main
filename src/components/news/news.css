@@ -1,0 +1,224 @@
+.wrapper-news {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #020712;
+}
+
+.news-component {
+  padding: 50px 200px;
+}
+.news-component h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ed2840;
+  padding-top: 60px;
+}
+.news-component .first-news {
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+}
+.news-component .first-news img {
+  margin-top: 50px;
+  width: 508px;
+  height: 258px;
+}
+.news-component .first-news .main-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+.news-component .first-news .main-text h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ed2840;
+}
+.news-component .first-news .main-text h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.news-component .first-news .main-text p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #000000;
+}
+.news-component .first-news .main-text a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.news-component .main-select-sport {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.news-component .main-select-sport .select-sport {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.news-component .main-select-sport .select-sport p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+.news-component .main-select-sport select {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 1px;
+  width: 320px;
+  height: 50px;
+}
+.news-component .main-select-sport .select-sport {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.news-component .main-select-sport .select-sport p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.wrapper-news .new {
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+  border: 1px solid #ed2840;
+  border-radius: 5px;
+  /*margin: 0 200px;*/
+}
+.wrapper-news img {
+  width: 120px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.wrapper-news .new-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #ed2840;
+  padding: 10px 10px;
+}
+.wrapper-news .new-text p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  color: #ffffff;
+}
+.wrapper-news .new-text h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.wrapper-news .new-text a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.wrapper-new {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 30px 0px 60px 0px;
+  background-color: #ffffff;
+}
+.wrapper-new .new-text a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.wrapper-new .new-text h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.wrapper-new .new {
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+  /*margin: 0 200px;*/
+}
+.wrapper-new img {
+  width: 120px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.wrapper-new .new-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding: 10px 10px;
+}
+.wrapper-new .new-text p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  color: #000000;
+}
+.main-news {
+  padding: 70px 200px;
+}
+.main-news h1 {
+  color: #ed2840;
+  text-align: center;
+}
+.main-news img {
+  padding: 40px;
+  object-fit: cover;
+  text-align: center;
+}
+.main-news p {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 35px;
+  padding-bottom: 50px;
+  color: #000000;
+}
